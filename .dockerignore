@@ -1,0 +1,36 @@
+# 忽略所有文件
+**
+
+# 允许构建所需文件
+!go.mod
+!go.sum
+!*.go
+!*.yaml
+
+# 如果有静态文件或模板，取消对应行的注释
+#!static/
+#!templates/
+
+# 忽略可执行文件和测试文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# 忽略临时文件和日志
+*.tmp
+*.temp
+*.log
+
+# 忽略IDE和编辑器文件
+.idea/
+*.swp
+*.swo
+.vscode/
+
+# 忽略操作系统文件
+.DS_Store
+Thumbs.db

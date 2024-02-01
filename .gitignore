@@ -1,0 +1,27 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Project-specific temporary files
+*.tmp
+*.temp
+
+# IDE and editor files
+.idea/
+*.swp
+*.swo
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db

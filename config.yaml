@@ -1,0 +1,5 @@
+mongo:
+  uri: "mongodb://my-mongo:27017"
+
+redis:
+  addr: "my-redis:6379"
